@@ -372,3 +372,138 @@ footer .input-group-text {
   background-color: #fc353c !important;
 }
 /* Special Product Card Ends */
+
+/* famous wrapper begins */
+.famous-card .famous-content {
+  top: 10%;
+  left: 5%;
+}
+.famous-card img {
+  border-radius: 10px;
+}
+.famous-card .famous-content h5 {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+.famous-card .famous-content h6 {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.famous-card .famous-content p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+  color: #ffffff;
+}
+/* famous wrapper ends */
+
+/* Our store begins */
+.filter-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 15px 25px;
+}
+
+.filter-tile {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 20px;
+}
+
+.filter-card ul,
+.filter-card,
+.form-check-label {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-777777);
+  cursor: pointer;
+}
+
+.filter-card .form-check-input:checked {
+  background-color: var(--color-febd69);
+  border-color: var(--color-febd69);
+}
+
+.filter-card .form-check-input:focus {
+  box-shadow: none;
+  border-color: rbga(0, 0, 0, 0.25);
+}
+.sub-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.colors {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.colors li {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+.random-products h5 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.random-products:first-child {
+  border-bottom: 1px solid var(--color-ededed);
+}
+/* Our store ends */
+
+/* Sorting Grid begins */
+.filter-sort-grid {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.grid img {
+  width: 35px;
+  height: 35px;
+  background-color: #f2f2f2;
+  padding: 8px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.col-12 .product-card {
+  display: flex;
+  gap: 20px;
+  width: 900px;
+  margin-bottom: 30px;
+}
+.col-12 .product-card .product-image {
+  width: 400px;
+}
+.col-12 .action-bar {
+  top: 17%;
+}
+.col-6 .product-image {
+  max-width: 270px;
+}
+.col-6 .product-image img {
+  margin: auto;
+  display: inline-block;
+}
+.product-card p.description {
+  font-size: 13px;
+  color: var(--color-777777);
+  margin-right: 20px;
+}
+.col-12 .product-card .product-image {
+  height: auto;
+}
+/* Sorting Grid ends */

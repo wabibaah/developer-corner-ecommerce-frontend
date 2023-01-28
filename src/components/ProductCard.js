@@ -1,14 +1,15 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
-function ProductCard() {
+function ProductCard({ grid }) {
+  const location = useLocation();
   return (
-    <div className="col-3">
+    <div className={`${location.pathname === "/store" ? `col-${grid}` : "col-3"} "col-12-extend"`}>
       <Link to="/" className="product-card position-relative">
         <div className="wishlist-icon position-absolute">
           <Link>
-            <img src="images/wish.svg" alt="" />
+            <img className="img-fluid" src="images/wish.svg" alt="" />
           </Link>
         </div>
         <div className="product-image">
@@ -28,18 +29,23 @@ function ProductCard() {
             size={24}
             activeColor="#ffd700"
           />
+          <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, doloribus
+            repudiandae porro ipsa qui nostrum error delectus. Maxime consequatur repellat totam
+            voluptas est impedit. Vitae libero consequuntur mollitia consectetur minus?
+          </p>
           <p className="price">GH$ 50</p>
         </div>
         <div className="action-bar position-absolute ">
           <div className="d-flex flex-column gap-15">
             <Link>
-              <img src="images/prodcompare.svg" alt="" />
+              <img className="img-fluid" src="images/prodcompare.svg" alt="" />
             </Link>
             <Link>
-              <img src="images/view.svg" alt="" />
+              <img className="img-fluid" src="images/view.svg" alt="" />
             </Link>
             <Link>
-              <img src="images/add-cart.svg" alt="" />
+              <img className="img-fluid" src="images/add-cart.svg" alt="" />
             </Link>
           </div>
         </div>

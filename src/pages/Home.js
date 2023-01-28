@@ -197,6 +197,56 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className="famous-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/blog-1.jpg" alt="" className="img-fluid" />
+                <div className="famous-content position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From GH$399 or GH$16.62/mon for 24 mo.*</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/blog-1.jpg" alt="" className="img-fluid" />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Studio display</h5>
+                  <h6 className="text-dark">600 nights of brightness</h6>
+                  <p className="text-dark">27-inch 5K Retina display</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/blog-1.jpg" alt="" className="img-fluid" />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Smart phones</h5>
+                  <h6 className="text-dark">Smartphone 13 Pro</h6>
+                  <p className="text-dark">
+                    Now in Green. From GH$999.99 or GH$41.62/mo for 24mo. Footnote*
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/blog-1.jpg" alt="" className="img-fluid" />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Home Speakers</h5>
+                  <h6 className="text-dark">Room-filling Sound</h6>
+                  <p className="text-dark">
+                    Now in Green. From GH$699.99 or GH$41.62/mo for 24mo. Footnote*
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="special-wrapper py-5 home-wrapper-2">
         <div className="container-xxl ">
           <div className="row">
@@ -219,12 +269,6 @@ function Home() {
             </div>
           </div>
           <div className="row">
-            <div className="col-2">
-              <div className="card"></div>
-            </div>
-            <div className="col-2">
-              <div className="card"></div>
-            </div>
             <ProductCard />
             <ProductCard />
             <ProductCard />

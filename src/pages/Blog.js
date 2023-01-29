@@ -26,7 +26,7 @@ function Blog() {
             </div>
             <div className="col-9">
               <div className="row">
-                <BlogCard />
+                <BlogCard className="mb-5" />
                 <BlogCard />
                 <BlogCard />
                 <BlogCard />

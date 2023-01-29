@@ -6,7 +6,7 @@ function ProductCard({ grid }) {
   const location = useLocation();
   return (
     <div className={`${location.pathname === "/store" ? `col-${grid}` : "col-3"} "col-12-extend"`}>
-      <Link to="/" className="product-card position-relative">
+      <Link to="/product/1" className="product-card position-relative">
         <div className="wishlist-icon position-absolute">
           <Link>
             <img className="img-fluid" src="images/wish.svg" alt="" />

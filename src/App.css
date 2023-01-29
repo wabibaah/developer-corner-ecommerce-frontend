@@ -307,8 +307,24 @@ footer .input-group-text {
   line-height: 22px;
   color: var(--color-777777);
 }
-/* Blog Part Ends */
+/* single blog  begins */
 
+/* single blog  ends */
+/* Blog Part Ends */
+.single-blog-card h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+}
+.single-blog-card p {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+.single-blog-card a {
+  font-size: 18px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
+}
 /* Product Card Begins */
 .product-card {
   padding: 15px;
@@ -616,3 +632,10 @@ footer .input-group-text {
   color: var(--color-777777);
 }
 /* Auth Card Ends */
+
+/* Privacy Policy begins */
+.policy {
+  background-color: #fff;
+  padding: 30px;
+}
+/* Privacy Policy ends */

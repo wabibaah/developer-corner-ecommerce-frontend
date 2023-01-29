@@ -14,6 +14,12 @@ import Signup from "./pages/Signup";
 import Wishlist from "./pages/Wishlist";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
+import SingleBlog from "./pages/SingleBlog";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import ShippingPolicy from "./pages/ShippingPolicy";
+import TermsAndConditions from "./pages/TermsAndConditions";
+import RefundPolicy from "./pages/RefundPolicy";
+import SingleProduct from "./pages/SingleProduct";
 
 function App() {
   return (
@@ -25,13 +31,19 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/store" element={<OurStore />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/blogs" element={<Blog />} />
             <Route path="/compare-products" element={<CompareProducts />} />
             <Route path="/wishlist" element={<Wishlist />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/forgot-password" element={<ForgotPassword />} />
             <Route path="/reset-password" element={<ResetPassword />} />
+            <Route path="/blog/:id" element={<SingleBlog />} />
+            <Route path="/product/:id" element={<SingleProduct />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/shipping-policy" element={<ShippingPolicy />} />
+            <Route path="/refund-policy" element={<RefundPolicy />} />
+            <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           </Route>
         </Routes>
       </BrowserRouter>

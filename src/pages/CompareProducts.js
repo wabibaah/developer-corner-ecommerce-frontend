@@ -2,6 +2,8 @@ import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Color from "../components/Color";
 import Meta from "../components/Meta";
+import Watch from "../assets/images/watch.jpg";
+import Cross from "../assets/images/cross.svg";
 
 function CompareProducts() {
   return (
@@ -13,9 +15,9 @@ function CompareProducts() {
           <div className="row">
             <div className="col-3">
               <div className="compare-product-card position-relative ">
-                <img src="images/cross.svg" alt="" className="position-absolute cross img-fluid" />
+                <img src={Cross} alt="" className="position-absolute cross img-fluid" />
                 <div className="product-card-image">
-                  <img className="img-fluid" src="images/watch.jpg" alt="" />
+                  <img className="img-fluid" src={Watch} alt="" />
                 </div>
                 <div className="compare-product-details">
                   <h5 className="title">Honor T1 7.0 GB ROM 7 inch Width Wi-Fi + 3G Tablet</h5>
@@ -50,9 +52,9 @@ function CompareProducts() {
             </div>
             <div className="col-3">
               <div className="compare-product-card position-relative ">
-                <img src="images/cross.svg" alt="" className="position-absolute cross img-fluid" />
+                <img src={Cross} alt="" className="position-absolute cross img-fluid" />
                 <div className="product-card-image">
-                  <img className="img-fluid" src="images/watch.jpg" alt="" />
+                  <img className="img-fluid" src={Watch} alt="" />
                 </div>
                 <div className="compare-product-details">
                   <h5 className="title">Honor T1 7.0 GB ROM 7 inch Width Wi-Fi + 3G Tablet</h5>

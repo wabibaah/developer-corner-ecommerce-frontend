@@ -1,6 +1,8 @@
 import React from "react";
 import Meta from "../components/Meta";
 import Breadcrumb from "../components/BreadCrumb";
+import Cross from "../assets/images/cross.svg";
+import Watch from "../assets/images/watch.jpg";
 
 function Wishlist() {
   return (
@@ -12,9 +14,9 @@ function Wishlist() {
           <div className="row">
             <div className="col-3">
               <div className="wishlist-card position-relative">
-                <img src="images/cross.svg" alt="" className="position-absolute cross img-fluid" />
+                <img src={Cross} alt="" className="position-absolute cross img-fluid" />
                 <div className="wishlist-card-image">
-                  <img src="images/watch.jpg" alt="watch" className="img-fluid w-100" />
+                  <img src={Watch} alt="watch" className="img-fluid w-100" />
                 </div>
                 <div className=" p-3">
                   <h5 className="title">Honor T1 7.0 GB ROM 7 inch Width Wi-Fi + 3G Tablet</h5>
@@ -24,9 +26,9 @@ function Wishlist() {
             </div>
             <div className="col-3">
               <div className="wishlist-card position-relative">
-                <img src="images/cross.svg" alt="" className="position-absolute cross img-fluid" />
+                <img src={Cross} alt="" className="position-absolute cross img-fluid" />
                 <div className="wishlist-card-image">
-                  <img src="images/watch.jpg" alt="watch" className="img-fluid w-100" />
+                  <img src={Watch} alt="watch" className="img-fluid w-100" />
                 </div>
                 <div className=" p-3">
                   <h5 className="title">Honor T1 7.0 GB ROM 7 inch Width Wi-Fi + 3G Tablet</h5>
@@ -36,9 +38,9 @@ function Wishlist() {
             </div>
             <div className="col-3">
               <div className="wishlist-card position-relative">
-                <img src="images/cross.svg" alt="" className="position-absolute cross img-fluid" />
+                <img src={Cross} alt="" className="position-absolute cross img-fluid" />
                 <div className="wishlist-card-image">
-                  <img src="images/watch.jpg" alt="watch" className="img-fluid w-100" />
+                  <img src={Watch} alt="watch" className="img-fluid w-100" />
                 </div>
                 <div className=" p-3">
                   <h5 className="title">Honor T1 7.0 GB ROM 7 inch Width Wi-Fi + 3G Tablet</h5>

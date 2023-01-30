@@ -5,6 +5,8 @@ import { HiOutlineArrowLeft } from "react-icons/hi";
 import Breadcrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 
+import Blog1 from "../assets/images/blog-1.jpg";
+
 function SingleBlog() {
   return (
     <>
@@ -21,7 +23,7 @@ function SingleBlog() {
                   Go back to Blogs
                 </Link>
                 <h3 className="title">A beautiful Sunday morning renaissance</h3>
-                <img src="images/blog-1.jpg" alt="" className="img-fluid" />
+                <img src={Blog1} alt="" className="img-fluid" />
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem autem nostrum
                   nulla cupiditate quasi sunt consectetur itaque, maiores commodi modi quidem

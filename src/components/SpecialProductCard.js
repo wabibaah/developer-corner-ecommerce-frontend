@@ -1,6 +1,7 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
 import { Link } from "react-router-dom";
+import Watch from "../assets/images/watch.jpg";
 
 function SpecialProductCard() {
   return (
@@ -8,7 +9,7 @@ function SpecialProductCard() {
       <div className="special-product-card">
         <div className="d-flex justify-content-between ">
           <div className="">
-            <img className="img-fluid" src="images/watch.jpg" alt="" />
+            <img className="img-fluid" src={Watch} alt="" />
           </div>
           <div className="special-product-content">
             <h5 className="brand">Havels</h5>

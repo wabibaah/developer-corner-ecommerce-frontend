@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
+import Compare from "../assets/images/compare.svg";
+import Wishlist from "../assets/images/wishlist.svg";
+import User from "../assets/images/user.svg";
+import Cart from "../assets/images/cart.svg";
+import Menu from "../assets/images/menu.svg";
 
 function Header() {
   const [showCategories, setShowCategories] = useState(false);
@@ -56,7 +61,7 @@ function Header() {
                     to="/compare-products"
                     className="d-flex align-items-center gap-10 text-white"
                   >
-                    <img src="/images/compare.svg" alt="" />
+                    <img src={Compare} alt="" />
                     <p className="mb-0">
                       Compare <br /> Products
                     </p>
@@ -65,7 +70,7 @@ function Header() {
 
                 <div>
                   <Link to="/wishlist" className="d-flex align-items-center gap-10 text-white">
-                    <img src="/images/wishlist.svg" alt="" />
+                    <img src={Wishlist} alt="" />
                     <p className="mb-0">
                       Favorite <br /> Wishlist
                     </p>
@@ -74,7 +79,7 @@ function Header() {
 
                 <div>
                   <Link to="/login" className="d-flex align-items-center gap-10 text-white">
-                    <img src="/images/user.svg" alt="" />
+                    <img src={User} alt="" />
                     <p className="mb-0">
                       Log in <br /> Register
                     </p>
@@ -83,7 +88,7 @@ function Header() {
 
                 <div>
                   <Link to="/cart" className="d-flex align-items-center gap-10 text-white">
-                    <img src="/images/cart.svg" alt="" />
+                    <img src={Cart} alt="" />
                     <div className="d-flex flex-column gap-10">
                       <span className="badge bg-white text-dark">0</span>
                       <p className="mb-0">GH$ 5000</p>
@@ -108,7 +113,7 @@ function Header() {
                       type="button"
                       id="dropdownMenuButton1"
                     >
-                      <img src="/images/menu.svg" alt="" />{" "}
+                      <img src={Menu} alt="" />{" "}
                       <span className="me-5 d-inline-block">Shop Categories</span>
                     </button>
                     <ul

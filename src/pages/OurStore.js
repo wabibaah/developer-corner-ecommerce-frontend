@@ -6,6 +6,8 @@ import Color from "../components/Color";
 import Meta from "../components/Meta";
 import ProductCard from "../components/ProductCard";
 
+import Watch from "../assets/images/watch.jpg";
+
 function OurStore() {
   const [grid, setGrid] = useState(4);
   // alert(grid);
@@ -113,7 +115,7 @@ function OurStore() {
                 <div className="">
                   <div className="random-products mb-3 d-flex">
                     <div className="w-50">
-                      <img src="images/watch.jpg" alt="watch" className="img-fluid" />
+                      <img src={Watch} alt="watch" className="img-fluid" />
                     </div>
                     <div className="w-50">
                       <h5>Kids watch bulk 10 pack multi colored for students</h5>
@@ -130,7 +132,7 @@ function OurStore() {
                   </div>
                   <div className="random-products d-flex">
                     <div className="w-50">
-                      <img src="images/watch.jpg" alt="watch" className="img-fluid" />
+                      <img src={Watch} alt="watch" className="img-fluid" />
                     </div>
                     <div className="w-50">
                       <h5>Kids watch bulk 10 pack multi colored for students</h5>

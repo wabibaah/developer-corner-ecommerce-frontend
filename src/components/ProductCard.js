@@ -14,9 +14,9 @@ function ProductCard({ grid }) {
     <div className={`${location.pathname === "/store" ? `col-${grid}` : "col-3"} "col-12-extend"`}>
       <Link to="/product/1" className="product-card position-relative">
         <div className="wishlist-icon position-absolute">
-          <Link>
+          <button className="border-0 bg-transparent">
             <img className="img-fluid" src={Wish} alt="" />
-          </Link>
+          </button>
         </div>
         <div className="product-image">
           <img className="img-fluid" src={Watch} alt="" />
@@ -44,15 +44,15 @@ function ProductCard({ grid }) {
         </div>
         <div className="action-bar position-absolute ">
           <div className="d-flex flex-column gap-15">
-            <Link>
+            <button className="border-0 bg-transparent">
               <img className="img-fluid" src={ProductCompare} alt="" />
-            </Link>
-            <Link>
+            </button>
+            <button className="border-0 bg-transparent">
               <img className="img-fluid" src={View} alt="" />
-            </Link>
-            <Link>
+            </button>
+            <button className="border-0 bg-transparent">
               <img className="img-fluid" src={AddToCart} alt="" />
-            </Link>
+            </button>
           </div>
         </div>
       </Link>
